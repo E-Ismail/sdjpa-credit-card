@@ -19,7 +19,7 @@ import java.util.Objects;
  * {@code @Date}  5/14/2023
  */
 
-@Component
+//@Component
 public class EncryptionInterceptor extends EmptyInterceptor {
 
 
