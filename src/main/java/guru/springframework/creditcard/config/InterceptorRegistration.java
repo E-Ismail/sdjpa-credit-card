@@ -16,10 +16,11 @@ import java.util.Map;
 //@Configuration
 public class InterceptorRegistration implements HibernatePropertiesCustomizer {
 
-    //    @Autowired
-    //    EncryptionInterceptor encryptionInterceptor;
+    //@Autowired
+    //EncryptionInterceptor encryptionInterceptor;
+
     @Override
     public void customize(Map<String, Object> hibernateProperties) {
-        //     hibernateProperties.put("hibernate.session_factory.interceptor",encryptionInterceptor);
+      //  hibernateProperties.put("hibernate.session_factory.interceptor", encryptionInterceptor);
     }
 }
